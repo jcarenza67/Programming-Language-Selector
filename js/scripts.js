@@ -16,15 +16,16 @@ window.addEventListener("load", function () {
     console.log("Answer 5:", answer5);
 
     let result;
-    if ((answer1 === "1" || answer1 === "2") && answer2 === "5" && answer3 === "8" && answer4 === "10" && answer5 === "13") {
+    if (answer1 === "1" || answer1 === "2" && answer2 === "5" && answer3 === "8" && answer4 === "10" && answer5 === "13") {
       result = "JavaScript";
-    } else if ((answer1 === "1" || answer1 === "2") && answer2 === "4" && answer3 === "7" && answer4 === "10" && answer5 === "13") {
+    } else if (answer1 === "1" && answer2 === "4" && answer3 === "7" && answer4 === "10" && answer5 === "13") {
       result = "C#";
     } else if (answer1 === "3" && answer2 === "6" && answer3 === "9" && answer4 === "12" && answer5 === "15") {
       result = "Python";
     } else {
       result = "Rust";
     }
+    
 
     const resultDiv = document.getElementById("answer");
     resultDiv.textContent = result;
