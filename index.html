@@ -10,47 +10,52 @@
 </head>
 <body>
   <h1>Programming Language Selector</h1>
-  <select id="dropdown" onchange="selectOption ()">
-    <option>Choose your Personality Type</option>
-    <option>Happy</option>
-    <option>Sad</option>
-    <option>Dumb</option>
+  <label for="dropdown1">Select an option</label>
+  <select id="dropdown1" onchange="selectOption ()">
+    <option value="">--Choose your Personality Type--</option>
+    <option value="option1">Happy</option>
+    <option value="option2">Sad</option>
+    <option value="option3">Dumb</option>
   </select>
   <div>
+    <label for="dropdown2">Select an option</label>
     <select id="dropdown2" onchange="selectOption ()">
-      <option>Choose your hobbies!</option>
-      <option>Biking</option>
-      <option>Swimming</option>
-      <option>Running from the cops</option>
+      <option value="">--Choose your hobbies--</option>
+      <option value="option4">Biking</option>
+      <option value="option5">Swimming</option>
+      <option value="option6">Running from the cops</option>
     </select>
   </div>
   <div>
+    <label for="dropdown3">Select an option</label>
     <select id="dropdown3" onchange="selectOption ()">
-      <option>Choose your Interests</option>
-      <option>Learning to play guitar</option>
-      <option>Salmon</option>
-      <option>Trout</option>
+      <option value="">--Choose your Interests--</option>
+      <option value="option7">Learning how to play the guitar</option>
+      <option value="option8">Learning how to dance </option>
+      <option value="option9">Learning how to summon the dark one</option>
     </select>
   </div>
   <div>
+    <label for="dropdown4">Select an option</label>
     <select id="dropdown4" onchange="selectOption ()">
-      <option>Choose your </option>
-      <option>Happy</option>
-      <option>Sad</option>
-      <option>Dumb</option>
+      <option value="">--Choose your favorite fish--</option>
+      <option value="option10">Tuna</option>
+      <option value="option11">Salmon</option>
+      <option avlue="option12">Trout</option>
     </select>
   </div>
   <div>
-    <select id="dropdown5" onchange="selectOption ()">
-      <option>Choose your Personality Type</option>
-      <option>Happy</option>
-      <option>Sad</option>
-      <option>Dumb</option>
+    <label for="dropdown5">Select an option</label>
+    <select id="dropdown5">
+      <option value="">--Choose your favorite car brand--</option>
+      <option value="option13">Subaru</option>
+      <option value="option14">Subaru</option>
+      <option value="option15">Subaru</option>
     </select>
   </div>
+  <button id="submit">Submit</button>
   <h2>You Will Love, To Program, Using!</h2>
  
-    <p id="output"></p>
-  
+    <div id="answer"></div>
 </body>
 </html>

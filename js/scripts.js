@@ -1,8 +1,15 @@
 window.addEventListener("load", function () {
-  const select = document.getElementById("language");
-  form.addEventListener("submit", display);
+  const dropdown = document.getElementById("dropdown");
+  const submitBtn - this.document.getElementById("submit")
+  const divAnswer = document.getElementById("answer");
 
-    function display(event){
+  submitBtn.addEventListener("click", function() {
+    let selectedOption = [];
 
+    dropdowns.forEach(function(dropdown) {
+      const selected
+  });
+
+  
     }
 });
