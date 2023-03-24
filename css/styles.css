@@ -19,7 +19,6 @@ background-color: aquamarine;
 .options {
   display: grid;
   justify-content: center;
-  padding-left: 00px;
 }
 
 .dd1 {
@@ -60,7 +59,8 @@ font-family: Creepster, cursive;
 }
 
 .gif {
-  display: flex;
-  justify-content: center;
-  padding-left: 100px;
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  margin: 0 auto;
 }
