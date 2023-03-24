@@ -10,30 +10,46 @@
 </head>
 <body>
   <h1>Programming Language Selector</h1>
-  <form id="language">
-    <div>
-      <label for="input1">Personality</label>
-      <input>
-    </div>
-    <div>
-      <label for="input2">Hobbies</label>
-      <input>
-    </div>
-    <div>
-      <label for="input3">Interests</label>
-      <input>
-    </div>
-    <div>
-      <label for="input4">Favorite Fish</label>
-      <input type="checkbox" id="input4" name="selector">
-    </div>
-    <div>
-      <label for="input5">Favorite Vehicle</label>
-      <input>
-    </div>
-    <button type="submit">Submit!</button>
-  </form>
+  <select id="dropdown" onchange="selectOption ()">
+    <option>Choose your Personality Type</option>
+    <option>Happy</option>
+    <option>Sad</option>
+    <option>Dumb</option>
+  </select>
+  <div>
+    <select id="dropdown2" onchange="selectOption ()">
+      <option>Choose your hobbies!</option>
+      <option>Biking</option>
+      <option>Swimming</option>
+      <option>Running from the cops</option>
+    </select>
+  </div>
+  <div>
+    <select id="dropdown3" onchange="selectOption ()">
+      <option>Choose your Interests</option>
+      <option>Learning to play guitar</option>
+      <option>Salmon</option>
+      <option>Trout</option>
+    </select>
+  </div>
+  <div>
+    <select id="dropdown4" onchange="selectOption ()">
+      <option>Choose your </option>
+      <option>Happy</option>
+      <option>Sad</option>
+      <option>Dumb</option>
+    </select>
+  </div>
+  <div>
+    <select id="dropdown5" onchange="selectOption ()">
+      <option>Choose your Personality Type</option>
+      <option>Happy</option>
+      <option>Sad</option>
+      <option>Dumb</option>
+    </select>
+  </div>
   <h2>You Will Love, To Program, Using!</h2>
+ 
     <p id="output"></p>
   
 </body>

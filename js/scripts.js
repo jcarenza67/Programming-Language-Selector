@@ -1,8 +1,8 @@
 window.addEventListener("load", function () {
-  const form = document.getElementById("language");
+  const select = document.getElementById("language");
   form.addEventListener("submit", display);
 
     function display(event){
-      
+
     }
 });
