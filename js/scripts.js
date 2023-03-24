@@ -25,4 +25,3 @@ window.addEventListener("load", function () {
     resultDiv.textContent = result;
   });
 });
-
