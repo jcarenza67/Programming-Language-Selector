@@ -1,11 +1,9 @@
-body {
-  background-color: aqua;
-}
+
 
 .header {
   display: flex;
   justify-content: center;
-  padding-left: 70px;
+  padding-left: 200px;
   color: rgb(7, 7, 7);
   font-size: 70px;
   font-family: 'Press Start 2P', cursive;
@@ -15,7 +13,8 @@ body {
 
 .options {
   display: grid;
-  justify-content: left;
+  justify-content: center;
+  padding-left: 100px;
 }
 
 .dd1 {
